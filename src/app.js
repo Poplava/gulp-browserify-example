@@ -1,6 +1,7 @@
-var someOne = require('./modules/someOne');
-var someTwo = require('./modules/someTwo/fileName');
+var React = require('react');
+var ReactDOM = require('react-dom');
+var UserList = require('./modules/UserList');
 
-someOne(someTwo);
+var users = require('./data/users');
 
-console.log('It works!');
+ReactDOM.render(<UserList users={users} />, document.getElementById('root'));
