@@ -1,0 +1,1 @@
+module.exports = 'some two module value';
