@@ -7,7 +7,7 @@ npm i
 
 ### Run build command
 ```
-npm gulp
+npm run gulp
 ```
 
 ### Open ```src/index.html``` in the browser
